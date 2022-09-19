@@ -1,0 +1,86 @@
+*{
+  box-sizing: border-box;
+  margin: 1%;
+  padding: 0%;
+}
+body {
+    font-family: cursive;
+    font-size: 1.5rem;
+  }
+  
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 60vh;
+    background: url("../img/design1_image1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  header .header-title {
+    padding: 1rem 2rem;
+    margin: 0;
+    color: black;
+    font-size: 65px;
+  }
+
+  header div {
+    position: relative;
+  }
+  header h2 {
+    font-size: 1.7rem;
+    padding: 0.7rem;
+    margin: 0;
+    text-align: center;
+    background-color:  black;
+    color: white;
+  }
+  header .header-logo {
+    position: absolute;
+    right: 6rem;
+    bottom: -2rem;
+    max-width: 150px;
+  }
+  
+  .main {
+    display: flex;
+  }
+  .main aside > nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 1rem;
+    padding-right: 3rem;
+    height: 60vh;
+    min-width: max-content;
+  }
+  .main .main-info {
+    max-width: 80%;
+    padding: 3rem;
+  }
+  .main .main-info p {
+    margin-bottom: 2rem;
+    text-indent: 2rem;
+  }
+  .main .main-list {
+    padding: 3rem 2rem 0;
+    font-size: 1.5rem;
+  }
+  .main .main-list ul, .main .main-list li {
+    margin: 0;
+    padding: 0 1rem 0.5rem 1rem;
+    list-style: none;
+  }
+  .main .main-list p {
+    text-indent: 2rem;
+  }
+  .main a:first-child {
+    text-decoration: none;
+  }
+  .main a:first-child .word--black {
+    color: black;
+  }
+  
+  /*# sourceMappingURL=mdhl.css.map */
+  
